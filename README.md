@@ -1,4 +1,6 @@
-This project implements an epilepsy seizure detection system using Random Forest (RF), Decision Tree (DT), and Gradient Boosting (GB) classifiers in MATLAB. The goal is to analyze EEG signals and classify them as seizure or non-seizure events with high accuracy.
+This project implements an epilepsy seizure detection system using 
+1.  Random Forest and Gradient Boosting
+2.  Decision Tree and Gradient Boosting classifiers in MATLAB. The goal is to analyze EEG signals and classify them as seizure or non-seizure events with high accuracy.
 
 Features:
 1.  EEG Signal Processing: Reads EEG data, preprocesses it, and extracts relevant features.
