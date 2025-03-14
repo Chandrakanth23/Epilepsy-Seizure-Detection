@@ -11,7 +11,7 @@ Features:
 
 4.  Performance Evaluation: Evaluates the models using accuracy, precision, recall, and F1-score.
 
-High Accuracy:
+Results:
 1.  Random Forest & Gradient Boosting: 99% Accuracy
 2.  Decision Tree & Gradient Boosting: 97% Accuracy
 
