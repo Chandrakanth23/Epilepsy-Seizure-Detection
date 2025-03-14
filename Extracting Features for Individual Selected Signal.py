@@ -1,0 +1,22 @@
+clear all; 
+close all; 
+clc; 
+X = load('O001.txt'); 
+Fs = 173.61;t = 0:1/Fs:(4097*1/Fs)-1/Fs; opts.alpha = 2; opts.fs = 500; 
+f1 = feeg('mcl', X) ;  
+f3 = feeg('hm', X) ;  
+f4 = feeg('hc', X) ;  
+f5 = feeg('1d', X) ;  
+f6 = feeg('n1d', X) ;  
+f7 = feeg('2d', X) ;  
+f8 = feeg('n2d', X);  
+f11 = feeg('lrssv', X);   
+f16 = feeg('am', X); 
+f17 = feeg('sd', X) ;  
+f19 = feeg('md', X);  
+f20 = feeg('max', X);  
+f21 = feeg('min', X) ;   
+f23 = feeg('kurt', X);  
+f24 = feeg('skew', X);   
+% Feature vector 
+feat = [f1,f3,f4,f5,f6,f7,f8,f11,f16,f17,f19,f20,f21,f23,f24];
